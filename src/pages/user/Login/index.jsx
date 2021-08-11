@@ -46,7 +46,7 @@ const Login = () => {
 
       setUserLoginState(msg);
     } catch (error) {
-      console.log(error);
+      console.log('', error);
     }
 
     setSubmitting(false);
