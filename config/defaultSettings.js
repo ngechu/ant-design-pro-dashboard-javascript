@@ -1,14 +1,13 @@
 const Settings = {
-  navTheme: 'light',
-  primaryColor: '#3428ffd9',
-  layout: 'mix',
-  contentWidth: 'Fluid',
+  navTheme: "dark",
+  primaryColor: "#1890ff",
+  layout: "side",
+  contentWidth: "Fluid",
   fixedHeader: false,
   fixSiderbar: true,
-  colorWeak: false,
-  title: 'Merchant Portal',
   pwa: false,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
-  iconfontUrl: '',
-};
+  logo: "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+  headerHeight: 48,
+  splitMenus: false
+}
 export default Settings;
