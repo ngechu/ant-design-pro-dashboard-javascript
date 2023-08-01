@@ -5,6 +5,7 @@ const Settings = {
   contentWidth: "Fluid",
   fixedHeader: false,
   fixSiderbar: true,
+  title: "YourApp",
   pwa: false,
   logo: "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
   headerHeight: 48,

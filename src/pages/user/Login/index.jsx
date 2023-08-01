@@ -61,7 +61,7 @@ const Login = () => {
         <div className={styles.top}>
           <div className={styles.header}>
             <Link to="/">
-              <img alt="logo" className={styles.logo} src="/gcom.svg" />
+              <img alt="logo" className={styles.logo} src="/logo.svg" />
             </Link>
           </div>
         </div>

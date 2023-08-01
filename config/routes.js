@@ -25,13 +25,6 @@ export default [
     component: './Welcome',
   },
   {
-    path: '/bazenga',
-    name: 'bazenga',
-    icon: 'smile',
-    component: './bazenga',
-    access: 'canAdmin',
-  },
-  {
     path: '/admin',
     name: 'admin',
     icon: 'crown',
@@ -52,7 +45,7 @@ export default [
 
   {
     path: '/',
-    redirect: '/bazenga',
+    redirect: '/welcome',
   },
   {
     component: './404',
