@@ -102,6 +102,7 @@ const Login = () => {
                   id: 'pages.login.username.placeholder',
                   defaultMessage: 'admin or user',
                 })}
+                initialValue={"admin"}
                 rules={[
                   {
                     required: true,
@@ -117,6 +118,7 @@ const Login = () => {
                   size: 'large',
                   prefix: <LockOutlined className={styles.prefixIcon} />,
                 }}
+                initialValue={"ant.design"}
                 placeholder={intl.formatMessage({
                   id: 'pages.login.password.placeholder',
                   defaultMessage: '密码: ant.design',
