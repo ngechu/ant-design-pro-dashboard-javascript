@@ -45,6 +45,7 @@ export const layout = ({ initialState }) => {
   return {
     rightContentRender: () => <RightContent />,
     disableContentMargin: false,
+    siderWidth: 270,
     waterMarkProps: {
       // content: initialState?.currentUser?.name,
       content: 'TPPC Demo system',

@@ -42,8 +42,8 @@ export default {
     res.send({
       success: true,
       data: {
-        name: 'Ngechu Mungai',
-        avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+        name: 'Admin',
+        avatar: 'https://tracom.co.ke/assets/images/logo/tracom_logo.svg',
         userid: '00000001',
         email: 'antdesign@alipay.com',
         signature: '海纳百川，有容乃大',

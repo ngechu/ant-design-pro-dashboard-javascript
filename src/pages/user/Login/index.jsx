@@ -61,7 +61,7 @@ const Login = () => {
         <div className={styles.top}>
           <div className={styles.header}>
             <Link to="/">
-              <img alt="logo" className={styles.logo} src="/logo.svg" />
+              <img alt="logo" className={styles.logo} src="/tracom_logo.svg" />
             </Link>
           </div>
         </div>
@@ -137,19 +137,9 @@ const Login = () => {
               />
             </>
 
-            <div
-              style={{
-                marginBottom: 24,
-              }}
-            >
-              <ProFormCheckbox noStyle name="autoLogin">
-                <FormattedMessage id="pages.login.rememberMe" defaultMessage="" />
-              </ProFormCheckbox>
-            </div>
           </ProForm>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

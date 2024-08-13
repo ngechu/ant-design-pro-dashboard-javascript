@@ -5,9 +5,9 @@ const Settings = {
   contentWidth: "Fluid",
   fixedHeader: false,
   fixSiderbar: true,
-  title: "YourApp",
+  title: "",
   pwa: false,
-  logo: "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+  logo: '/tracom_logo.svg',
   headerHeight: 48,
   splitMenus: false
 }
