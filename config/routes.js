@@ -24,6 +24,11 @@ export default [
     component: './Home',
   },
   {
+    path: '/pos-licence',
+    name: 'Tracom POS Permission Generator ',
+    component: './pos-regex',
+  },
+  {
     path: '/',
     redirect: '/home',
   },
