@@ -14,6 +14,7 @@ export const initialStateConfig = {
  * */
 
 export async function getInitialState() {
+  console.log("Base url >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>XXXXXXXXXXXXXXXXXXXXXXXXXXXX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", process.env.UMI_APP_BASE_URL)
   const fetchUserInfo = async () => {
     try {
       const msg = await queryCurrentUser();

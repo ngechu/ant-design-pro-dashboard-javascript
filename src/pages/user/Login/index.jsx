@@ -21,7 +21,7 @@ const Login = () => {
       await setInitialState((s) => ({ ...s, currentUser: userInfo }));
     }
   };
-  console.log('+++++++++++++++++++++++++++++++++', initialState);
+  console.log('+++++++++++++++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++++++++++++++', process.env.UMI_APP_BASE_URL);
 
   const handleSubmit = async (values) => {
     setSubmitting(true);
