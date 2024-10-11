@@ -21,7 +21,6 @@ const Login = () => {
       await setInitialState((s) => ({ ...s, currentUser: userInfo }));
     }
   };
-  console.log('+++++++++++++++++XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX++++++++++++++++', process.env.UMI_APP_BASE_URL);
 
   const handleSubmit = async (values) => {
     setSubmitting(true);
@@ -102,7 +101,7 @@ const Login = () => {
                   id: 'pages.login.username.placeholder',
                   defaultMessage: 'admin or user',
                 })}
-                initialValue={"admin"}
+                initialValue={'admin'}
                 rules={[
                   {
                     required: true,
@@ -118,7 +117,7 @@ const Login = () => {
                   size: 'large',
                   prefix: <LockOutlined className={styles.prefixIcon} />,
                 }}
-                initialValue={"ant.design"}
+                initialValue={'ant.design'}
                 placeholder={intl.formatMessage({
                   id: 'pages.login.password.placeholder',
                   defaultMessage: '密码: ant.design',
@@ -136,7 +135,6 @@ const Login = () => {
                 ]}
               />
             </>
-
           </ProForm>
         </div>
       </div>

@@ -12,8 +12,8 @@ export default defineConfig({
   //   babelOptions: {},
   // },
   define: {
-    'process.env.UMI_APP_BASE_URL': 'MY_APP_BASE_URL' || "none",
-    'process.env.UMI_APP_WEBSOCKET_URL': 'MY_APP_WEBSOCKET_URL' || "none"
+    'process.env.UMI_APP_BASE_URL': 'LANGO_BASE_URL' || "none",
+    'process.env.UMI_APP_WEBSOCKET_URL': 'LANGO_WEBSOCKET_URL' || "none"
   }
 })
 
